@@ -26,5 +26,4 @@ func main() {
 		fmt.Println("The number is positive: ", number)
 	}
 
-
 }
