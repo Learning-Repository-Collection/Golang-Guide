@@ -2,16 +2,13 @@ package main
 
 import "fmt"
 
-
 func main() {
 
 	// setting up a for loop
 	// INITIAL; CONDITION, AFTER
-	for i:= 0; i < 10; i++ {
+	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 	}
-
-	fmt.Println("\n")
 
 	// a while loop is a for loop that only has a condition
 	plantHeight := 1
@@ -19,7 +16,7 @@ func main() {
 		fmt.Println("Still Growing! Current Height: ", plantHeight)
 		plantHeight++
 	}
-	fmt.Println("Plant has grown to:", plantHeight, "inches", "\n")
+	fmt.Println("Plant has grown to:", plantHeight, "inches")
 
 	// continuing through a loop
 	for i := 0; i < 10; i++ {
@@ -29,8 +26,6 @@ func main() {
 		}
 		fmt.Println(i)
 	}
-
-	fmt.Println("\n")
 
 	// break out of a loop
 	for i := 0; i < 10; i++ {
